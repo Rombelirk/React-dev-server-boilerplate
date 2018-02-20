@@ -1,0 +1,10 @@
+div {
+    display: flex;
+}
+
+.main-container {
+    background-color: cornflowerblue;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

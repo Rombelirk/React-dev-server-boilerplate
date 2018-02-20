@@ -1,16 +1,17 @@
-import  React, { Component } from "react";
+import React, {Component} from "react";
+import { Layout } from "../../../components";
 
-class Layout extends Component {
+class LayoutContainer extends Component {
 
 
     render() {
-        return(
-            <div>
-            <h1>Layout!!</h1>
+        return (
+            <Layout.Main>
+                <h1>Layout!!</h1>
                 {this.props.children}
-            </div>
+            </Layout.Main>
         )
     }
 }
 
-export default Layout;
+export default LayoutContainer;
