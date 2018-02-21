@@ -2,8 +2,9 @@ import  React, { Component } from "react";
 import { Provider } from "react-redux";
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import store from "./store/store.js";
+import "./App.css";
 import Layout from "./modules/layout";
-import Content from "./modules/content";
+import DebtorForm from "./modules/debtor_form";
 
 class App extends Component {
     render() {
@@ -11,7 +12,7 @@ class App extends Component {
             <Provider store={store}>
                 <Layout>
                     <Router>
-                        <Route path="/content" component={Content}/>
+                        <Route path="/content" component={DebtorForm}/>
                     </Router>
                 </Layout>
             </Provider>

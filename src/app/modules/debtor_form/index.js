@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
-import Content from "./containers/contentContainer";
 import * as actions from "./actions";
+import DebtorFormContainer from "./containers/debtorFormContainer";
 // import "./styles/layout.scss";
 
 const mapStateToProps = (state) => {
@@ -9,4 +9,4 @@ const mapStateToProps = (state) => {
     }
 };
 
-export default connect(mapStateToProps, actions)(Content);
+export default connect(mapStateToProps, actions)(DebtorFormContainer);

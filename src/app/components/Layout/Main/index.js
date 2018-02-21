@@ -3,8 +3,8 @@ import "./main.css";
 
 const Main = (props) => {
     return (
-        <div className="layout-main-body">
-            <div className="layout-main-container">
+        <div className="main-body">
+            <div className="main-container">
                 {props.children}
             </div>
         </div>

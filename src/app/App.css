@@ -1,0 +1,19 @@
+:root {
+    --main-color: red;
+    --secondary-color: pink;
+    --active-items-color: #ff6f00;
+    --hover-items-color: rgba(255, 111, 0, 0.64);
+    --border: 1px solid rgba(148, 148, 148, 0.3);
+}
+
+body {
+    font-family: Ubuntu Mono, Arial, sans-serif;
+}
+
+div {
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+
