@@ -1,3 +1,10 @@
-.layout-header-logo {
+.header-container {
 
+    height: 80px;
+    align-items: center;
+}
+
+.header-logo {
+    width: 229px;
+    height: 38px;
 }

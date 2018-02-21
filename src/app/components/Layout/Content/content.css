@@ -1,0 +1,5 @@
+.content-container {
+    min-height: 90vh;
+    width: 100%;
+    border: var(--border);
+}

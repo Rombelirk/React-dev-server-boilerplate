@@ -1,22 +1,34 @@
-import FormOne from "./Forms/FormOne";
-import FormTwo from "./Forms/FormTwo";
-import SidebarOne from "./Sidebars/SidebarOne";
-import SidebarTwo from "./Sidebars/SidebarTwo";
 import Main from "./Layout/Main";
+import Header from "./Layout/Header";
+import Content from "./Layout/Content";
+import FixedSidebar from "./Menus/FixedSidebar";
 
-
-export const Forms = {
-    FormOne,
-    FormTwo
-};
-export const Sidebars = {
-    SidebarOne,
-    SidebarTwo
-};
+/**
+ * @Layout
+ *
+ * Static app container
+ */
 
 export const Layout = {
-    Main
+    Main,       /** General container */
+    Header,     /** Everything between Header and Footer */
+    Content
 };
+
+/**
+ * @Menus
+ *
+ * Navigation menus and sidebars
+ */
+
+
+export const Menus = {
+    FixedSidebar, /** Vertical side-menus for navigation etc. */
+};
+
+
+
+
 
 
 
