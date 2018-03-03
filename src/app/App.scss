@@ -1,0 +1,40 @@
+$main-color: red;
+$secondary-color: pink;
+$active-items-color: #ff6f00;
+$hover-items-color: rgba(255, 134, 0, 0.51);
+$border: 1px solid rgba(148, 148, 148, 0.3);
+
+body {
+  @font-face {
+    font-family: "11452";
+    src: url("/fonts/11452.otf") format("otf")
+  }
+}
+
+div {
+  display: flex;
+  box-sizing: border-box;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+}
+
+section {
+  border: 1px solid #dcdcdc;
+
+}
+
+
+
+
+
+
+

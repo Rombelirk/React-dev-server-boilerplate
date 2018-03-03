@@ -1,5 +1,5 @@
 .content-container {
-    min-height: 90vh;
-    width: 100%;
-    border: var(--border);
-}
+  height: 100%;
+  width: 100%;
+  box-shadow: 1px 0px 10px 1px rgba(40, 40, 40, 0.74);
+  padding: 5px; }

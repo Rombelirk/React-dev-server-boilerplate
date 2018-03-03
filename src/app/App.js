@@ -12,7 +12,7 @@ class App extends Component {
             <Provider store={store}>
                 <Layout>
                     <Router>
-                        <Route path="/content" component={DebtorForm}/>
+                        <Route path="/" component={DebtorForm}/>
                     </Router>
                 </Layout>
             </Provider>

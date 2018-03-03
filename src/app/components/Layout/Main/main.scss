@@ -1,0 +1,19 @@
+
+.main-body {
+    background-image: linear-gradient(to bottom, #484848 0%, #505050 50%);
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+
+
+}
+
+.main-container {
+
+    box-shadow: 3px 3px 10px 1px rgba(40, 40, 40, 0.86);
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 1200px;
+    min-height: 100vh;
+    height: 100%;
+}

@@ -8,7 +8,7 @@ class LayoutContainer extends Component {
     render() {
         return (
             <Layout.Main>
-                <Layout.Header/>
+                {/*<Layout.Header/>*/}
                 <Layout.Content>
                     {this.props.children}
                 </Layout.Content>

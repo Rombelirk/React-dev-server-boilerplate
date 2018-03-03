@@ -1,0 +1,21 @@
+
+.pool__container{
+
+  width: 100%;
+  .pool__list {
+    width: 100%;
+  }
+}
+
+
+.pool-item__container {
+justify-content: space-around;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 30px;
+  //width: 100%;
+  overflow: hidden;
+  border: 1px solid #dcdcdc;
+  margin: 3px;
+  padding: 2px;
+}

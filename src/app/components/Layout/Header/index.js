@@ -6,7 +6,7 @@ const Header = (props) => {
     return (
         <div className="header-container">
 
-                <img className="header-logo" src={logo} alt="Logo" />
+                {/*<img className="header-logo" src={logo} alt="Logo" />*/}
 
             <div className="header-navbar">
 

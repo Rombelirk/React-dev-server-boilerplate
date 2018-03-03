@@ -29,7 +29,7 @@ class FixedSidebar extends Component {
         let index = this.state.children.findIndex(el => {
             return el.id === id;
         });
-        console.log(id);
+
         this.setState({
             activeChildIndex: index
         });
